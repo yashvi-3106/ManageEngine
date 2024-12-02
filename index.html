@@ -66,54 +66,55 @@
 
 <div id="container">
     <div class="box1">
-        <img class="icon" src="./icon.png" >
+        <img class="icon" src="images/icon.png" >
            <h4 class="txt">Identity and access  <br> management</h2>
                 <p class="txt1">Active Directory & M365 management | MFA & SSO | <br> Zero Trust | PAM</p>
     </div>
     <div class="box2">
-        <img class="icon" src="./icon2.png" >
+        <img class="icon" src="images/icon2.png" >
            <h4 class="txt2">Unified <br> service management</h4>
                 <p class="txt1">Enterprise and IT service delivery | IT asset <br> management | Customers support</p>
     </div>
     <div class="box3">
-         <img class="icon3" src="./icon3.png" >
+         <img class="icon3" src="images/icon3.png" >
             <h4 class="txt">Unified endpoint  <br> management and security</h4>
                 <p class="txt1">Desktops | Servers | Laptops | Mobile devices | <br> Browsers</p>
     </div>
     <div class="box4">
-         <img class="icon4" src="./icon4.png">
+         <img class="icon4" src="images/icon4.png">
             <h4 class="txt">IT operations management <br> and  observability</h4>
                <p class="txt1">Observability | AIOps | DEM | Applications | <br> Infrastructure | Network</p>
     </div>
     <div class="box5">
-        <img class="icon" src="./icon5.png" >
+        <img class="icon" src="images/icon5.png" >
            <h4 class="txt">Security information and <br> event management</h4>
              <p class="txt1">Log management | Security auditing | Threat detection and <br> response | UEBA</p>
     </div>
     <div class="box6">
-        <img class="icon" src="./icon6.png" >
+        <img class="icon" src="images/icon6.png" >
            <h4 class="txt2">Advanced <br> IT analytics</h4>
               <p class="txt1">Unified IT analytics | AI-powered insights | <br> IT data correlation | Capacity planning</p>
     </div>
     <div class="box7">
-        <img class="icon" src="./icon7.png" >
+        <img class="icon" src="images/icon7.png" >
            <h4 class="txt">Low-code app development</h4>
               <p class="txt1">Business process management | Workflow automation | <br>Custom apps</p>
     </div>
     <div class="box8">
-        <img class="icon" src="./icon8.png" >
+        <img class="icon" src="images/icon8.png" >
           <h4 class="txt">IT management <br>for MSPs </h4>
              <p class="txt1">RMM | UEM | ITSM | ITOM | IAM | SIEM</p>
     </div>
     <div class="box9">
-        <img class="icon" src="icon9.png" >
+        <img class="icon" src="images/icon9.png" >
            <h4 class="txt">Cloud solutions for <br> enterprise IT</h4>
              <p class="txt1">Cloud-ready | Cloud-native</p>
     </div>
 </div>
 
 <div>
-    <button id="know"> <b> EXPLORE OUR PRODUCTS</b></button>
+    <!-- <button id="know"> <b> EXPLORE OUR PRODUCTS</b></button> -->
+    <div id="know" style="background-color: #e04b3a;">EXPLORE OUR PRODUCTS</div>
 </div>
 
 <div class="">
@@ -122,12 +123,51 @@
     <p class="manage">ManageEngine recognized in the <br> <b>2024 Gartner® Magic Quadrant™</b> for <br> <b>Digital Experience Monitoring</b></p>
 </div>
 
+<div class="text5">
+   <strong> 280,000 organizations across 190 countries trust ManageEngine <br>
+to manage their IT. </strong>
+</div>
+ 
+<div class="container">
+  <div>
+    <img class="box" style="border-radius: 8px;" src="https://cdn.manageengine.com/images/west-yorkshire.jpg"  >
+    <p class="tt">West Yorkshire Combined Authority adopts ManageEngine solutions to <br> scrutinize its critical IT</p>
+  </div>
+  <div class="box10">
+      <img class="certis" src="https://cdn.manageengine.com/images/certis-europe.png" width="50%" height="23%">
+      <p class="certistxt">Europe ensures uptime with <br> Applications Manager</p>
+  </div>
+  <div class="box11">
+      <img class="ezibuy" src="https://cdn.manageengine.com/images/ezibuy-logo.png" width="60%" height="10%">
+      <p class="ezibuytxt">increases SLA compliance by <br> 70 percent using Analytics Plus</p>
+  </div>
+  <div class="box12">
+
+  </div>
+  <div class="box13">
+
+  </div>
+  <div >
+    <img class="box14" src="https://cdn.manageengine.com/images/martin-mcnab.jpg">
+  </div>
+</div>
 
 <script>
     const button = document.getElementsById('start');
     button.addEventListener('click', () => {
       alert('GET STARTED');
     });
+
+    const know = document.getElementById('know');
+
+    know.addEventListener('mouseenter', () => {
+      know.style.backgroundColor = 'white';
+    });
+
+    know.addEventListener('mouseleave', () => {
+      know.style.backgroundColor = '#eo4b3a';
+    });
+
 
 </script>
 </body>

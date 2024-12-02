@@ -414,12 +414,13 @@ ul,li{
     font-size: 14px;
     font-family: 'Zoho_Puvi_SemiBold';
     border: 1px solid #FFF;
-    width: 20%;
-    height: 6%;
+    width: 15%;
+    height: 3%;
+    text-align: center;
 }
-#know:hover{
+/* #know:hover{
     background-color: #ec0d0d;
-}
+} */
 
 .slides{
     position: absolute;
@@ -448,3 +449,152 @@ ul,li{
     letter-spacing: .5px;
     line-height: 50px;
 }
+
+.text5{
+    position: absolute;
+    top: 275%;
+    left: 20%;
+    font-size: 1.8em;
+    line-height: 1.4em;
+    text-align: center;
+    padding: 20px 0;
+    font-family: Zoho_Puvi_SemiBold;
+    letter-spacing: 1px;
+    
+}
+
+
+.container{
+        position: absolute;
+        top: 290%;
+        background-color: #f4f4f4;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+
+.box{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    background-color: #698ee3;
+    color: white;
+    height: 30%;
+    border-radius: 3px;
+    height: 45%;
+    width: 35%;
+}    
+
+.tt{
+    position: absolute;
+    top: 40%;
+    left: 11%;
+    color: #ddd;
+    font-size: 15px;
+}
+
+.box10{
+    position: absolute;
+    top: 3.5%;
+    left: 45%;
+    display: block;
+    color: #000;
+    position: relative;
+    background: #fff;
+    padding: 30px 10px;
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 4px;
+    height: 37%;
+    width: 18%;
+}
+
+.box11{
+    position: absolute;
+    top: 3.5%;
+    left: 44.5%;
+    display: block;
+    color: #000;
+    position: relative;
+    background: #fff;
+    padding: 30px 10px;
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 4px;
+    height: 37%;
+    width: 18%;
+}
+
+.certis{
+    position: absolute;
+    top: 20%;
+    left: 24%;
+}
+
+.certistxt{
+    position: absolute;
+    top: 45%;
+    left: 15%;
+    color: #333;
+    letter-spacing: 1px;
+}
+
+.ezibuy{
+    position: absolute;
+    top: 26%;
+    left: 24%;
+}
+
+.ezibuytxt{
+    position: absolute;
+    top: 45%;
+    left: 15%;
+    color: #333;
+    letter-spacing: 1px;
+}
+
+.box12{
+    position: absolute;
+    top: 51%;
+    left: -32%;
+    display: block;
+    color: #000;
+    position: relative;
+    background: #fff;
+    padding: 30px 10px;
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 4px;
+    height: 37%;
+    width: 18%;
+}
+
+.box13{
+    position: absolute;
+    top: 51%;
+    left: -32%;
+    display: block;
+    color: #000;
+    position: relative;
+    background: #fff;
+    padding: 30px 10px;
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 4px;
+    height: 37%;
+    width: 18%;
+}
+
+.box14{
+    position: absolute;
+    top: 51%;
+    left: 60%;
+    background-color: #698ee3;
+    color: white;
+    height: 30%;
+    border-radius: 3px;
+    height: 45%;
+    width: 35%;
+}  
