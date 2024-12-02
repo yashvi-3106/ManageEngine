@@ -173,3 +173,278 @@ ul,li{
     background-color: #ddd;
     color: #000;
 }
+
+.text3{
+    position: absolute;
+    top: 90%;
+    left: 25%;
+    font-size: 1em;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: .5px;
+}
+
+#container{
+    position: absolute;
+    top: 100%;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.box1{
+    position: absolute;
+    top: 1%;
+    left: 10%;
+    display: block;
+    color: #000;
+    position: relative;
+    background: #fbfbfb;
+    padding: 30px 10px;
+    border: 1px solid #d5d5d5;
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 4px;
+    height: 20%;
+    width: 24%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.icon{
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    height: 35%;
+}
+
+.txt{
+    position: absolute;
+    top: 38%;
+    left: 30%;
+    font-size: 15px;
+    line-height: 1.2;
+    min-height: 46px;
+    font-family: Zoho_Puvi_SemiBold;
+    color: #000;
+    cursor: pointer
+}
+
+.txt1{
+    position: absolute;
+    top: 65%;
+    left: 15%;
+    color: #11368b;
+    font-size: 11px;
+    line-height: 1.5;
+    min-height: 35px;
+    font-family: Zoho_Puvi_Regular;
+    cursor: pointer;
+    letter-spacing: .5px;
+}
+
+.box2{
+    position: absolute;
+    top: 1%;
+    left: 10%;
+    display: block;
+    color: #000;
+    position: relative;
+    background: #fbfbfb;
+    padding: 30px 10px;
+    border: 1px solid #d5d5d5;
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 4px;
+    height: 20%;
+    width: 24%;
+}
+
+.txt2{
+    position: absolute;
+    top: 38%;
+    left: 40%;
+    font-size: 15px;
+    line-height: 1.2;
+    min-height: 46px;
+    font-family: Zoho_Puvi_SemiBold;
+    color: #000;
+    cursor: pointer;
+}
+
+.box3{
+    position: absolute;
+    top: 1%;
+    left: 10%;
+    display: block;
+    color: #000;
+    position: relative;
+    background: #fbfbfb;
+    padding: 30px 10px;
+    border: 1px solid #d5d5d5;
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 4px;
+    height: 20%;
+    width: 24%;
+}
+
+.icon3{
+    position: absolute;
+    top: 14%;
+    left: 40%;
+    height: 25%;
+}
+
+.box4{
+    position: absolute;
+    top: 33%;
+    left: -65%;
+    display: block;
+    color: #000;
+    position: relative;
+    background: #fbfbfb;
+    padding: 30px 10px;
+    border: 1px solid #d5d5d5;
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 4px;
+    height: 20%;
+    width: 24%;
+}
+
+.icon4{
+    position: absolute;
+    top: 14%;
+    left: 42%;
+    height: 30%;
+}
+
+.box5{
+    position: absolute;
+    top: 33%;
+    left: 35%;
+    display: block;
+    color: #000;
+    background: #fbfbfb;
+    padding: 30px 10px;
+    border: 1px solid #d5d5d5;
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 4px;
+    height: 20%;
+    width: 22.3%;
+}
+
+.box6{
+    position: absolute;
+    top: 33%;
+    left: 60%;
+    display: block;
+    color: #000;
+    background: #fbfbfb;
+    padding: 30px 10px;
+    border: 1px solid #d5d5d5;
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 4px;
+    height: 20%;
+    width: 22.3%;
+}
+
+.box7{
+    position: absolute;
+    top: 65%;
+    left: 10%;
+    display: block;
+    color: #000;
+    background: #fbfbfb;
+    padding: 30px 10px;
+    border: 1px solid #d5d5d5;
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 4px;
+    height: 20%;
+    width: 22.3%;
+}
+
+.box8{
+    position: absolute;
+    top: 65%;
+    left: 35%;
+    display: block;
+    color: #000;
+    background: #fbfbfb;
+    padding: 30px 10px;
+    border: 1px solid #d5d5d5;
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 4px;
+    height: 20%;
+    width: 22.3%;
+}
+
+.box9{
+    position: absolute;
+    top: 65%;
+    left: 60%;
+    display: block;
+    color: #000;
+    background: #fbfbfb;
+    padding: 30px 10px;
+    border: 1px solid #d5d5d5;
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 4px;
+    height: 20%;
+    width: 22.3%;
+}
+
+#know{
+    position: absolute;
+    top: 200%;
+    left: 38%;
+    display: inline-block;
+    color: #FFF;
+    background-color: #e04b3a;
+    padding: 10px 19px;
+    border-radius: 3px;
+    font-size: 14px;
+    font-family: 'Zoho_Puvi_SemiBold';
+    border: 1px solid #FFF;
+    width: 20%;
+    height: 6%;
+}
+#know:hover{
+    background-color: #ec0d0d;
+}
+
+.slides{
+    position: absolute;
+    top: 212%;
+    width: 100%;
+}
+
+.img1{
+    position: absolute;
+    top: 230%;
+    left: 60%;
+    height: 30%;
+}
+
+.manage{
+    position: absolute;
+    top: 230%;
+    left: 10%;
+    font-size: 40px;
+    font-family: "Zoho_Puvi_Regular";
+    display: block;
+    margin: 10px 0;
+    padding: 0;
+    line-height: 1.4;
+    color: #000;
+    letter-spacing: .5px;
+    line-height: 50px;
+}
