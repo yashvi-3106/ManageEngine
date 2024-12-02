@@ -1,0 +1,95 @@
+body{
+    height: 100%;
+    width: 100%;
+    color: #444;
+}
+
+.logo{
+    position: absolute;
+    top: 10%;
+    left: 4%;
+}
+
+.nav{
+    display: block;
+    unicode-bidi: isolate;
+}
+
+
+ul,li{
+    list-style: none;
+}
+
+.products{
+    color: rgb(68, 68, 68);
+    font: 400 15px / 24px Zoho_Puvi_Regular;
+    font-size: 1em;
+    letter-spacing: .5px;
+    font: inherit;
+}
+
+.pro{
+    position: absolute;
+    top: 12.5%;
+    left: 30%;
+}
+
+.sol{
+    position: absolute;
+    top: 12.5%;
+    left: 37%
+}
+
+.com{
+    position: absolute;
+    top: 12.5%;
+    left: 44%
+}
+
+.sup{
+    position: absolute;
+    top: 12.5%;
+    left: 52%
+}
+
+.eve{
+    position: absolute;
+    top: 12.5%;
+    left: 59%
+}
+
+.top{
+    position: relative;
+    top: 1%;
+    left: 80%;
+    border-bottom: 1px solid #ddd;
+    height: 5%;
+    width: 16%;
+    font-size: .84rem;
+    letter-spacing: .5px;
+}
+
+.contact{
+    position: absolute;
+    left: 3%;
+    top: 7%;
+}
+
+.store{
+    position: absolute;
+    left: 24%;
+    top: 7%;
+}
+
+.partner{
+    position: absolute;
+    left: 40%;
+    top: 7%;
+}
+
+.affilitate{
+    position: absolute;
+    left: 60%;
+    top: 7%;
+}
+
