@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="manage.css">
+</head>
+<body>
+    <nav>
+        <div>
+          <img class="logo" src="https://cdn.manageengine.com/images/logo/manageengine-logo.svg" width="220" height="45">
+        </div>
+        <div class="nav">
+         <ul>
+          <li class="products pro">
+              Products
+          </li>
+          <li class="products sol">
+             Solutions 
+          </li>
+          <li class="products com">
+              Company
+          </li>
+          <li class="products sup">
+              Support
+          </li>
+          <li class="products eve">
+              Events
+          </li>
+         </ul>
+
+         <div class="product-banner">
+            <label style="color: aliceblue; font-size: 20px;" for="name"> Enter Name: </label>
+            <input type="text" id="name" placeholder="Enter name">
+            <br><br>
+        
+            <label style="color: aliceblue; font-size: 20px;" for="age">Enter Age: </label>
+            <input type="number" id="age" placeholder="Enter age">
+            <br><br>
+        
+            <label style="color: aliceblue; font-size: 20px;" for="email">Enter Email: </label>
+            <input type="email" id="email" placeholder="Enter email">
+            <br><br>
+        
+            <label style="color: aliceblue; font-size: 20px;" for="password">Enter Password: </label>
+            <input type="password" id="password" placeholder="Enter password">
+            <br><br>
+        
+            <button onclick="saveData()">Save User Data</button>
+            <button onclick="clearStorage()">Clear Local Storage</button>
+        
+            <p id="savedData"></p>
+         </div>
+
+         <script>
+            function saveData() {
+            const name = document.getElementById('name').value;
+            const age = document.getElementById('age').value;
+            const email = document.getElementById('email').value;
+            const password = document.getElementById('password').value;
+
+            if (name && age && email && password) {
+                localStorage.setItem('name', name);
+                localStorage.setItem('age', age);
+                localStorage.setItem('email', email);
+                localStorage.setItem('password', password);
+                displaySavedData();
+            } else {
+                alert("FILL IN ALL FIELDS");
+            }
+        }
+
+        function displaySavedData() {
+            const name = localStorage.getItem('name');
+            const age = localStorage.getItem('age');
+            const email = localStorage.getItem('email');
+            const password = localStorage.getItem('password');
+
+            if (name && age && email && password) {
+                document.getElementById('savedData').innerText = `
+                    Name: ${name}
+                    Age: ${age}
+                    Email: ${email}
+                    Password: ${password}
+                `;
+            } else {
+                document.getElementById('savedData').innerText = 'No data saved.';
+            }
+        }
+
+        window.onload = function() {
+            displaySavedData();
+        }
+         </script>
+</body>
+</html>
