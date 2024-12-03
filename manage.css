@@ -229,7 +229,8 @@ ul,li{
     min-height: 46px;
     font-family: Zoho_Puvi_SemiBold;
     color: #000;
-    cursor: pointer
+    cursor: pointer;
+    text-align: center;
 }
 
 .txt1{
@@ -243,6 +244,7 @@ ul,li{
     font-family: Zoho_Puvi_Regular;
     cursor: pointer;
     letter-spacing: .5px;
+    text-align: center;
 }
 
 .box2{
@@ -265,13 +267,14 @@ ul,li{
 .txt2{
     position: absolute;
     top: 38%;
-    left: 40%;
+    left: 29%;
     font-size: 15px;
     line-height: 1.2;
     min-height: 46px;
     font-family: Zoho_Puvi_SemiBold;
     color: #000;
     cursor: pointer;
+    text-align: center;
 }
 
 .box3{
@@ -539,6 +542,7 @@ ul,li{
     left: 15%;
     color: #333;
     letter-spacing: 1px;
+    text-align: center;
 }
 
 .ezibuy{
@@ -553,6 +557,7 @@ ul,li{
     left: 15%;
     color: #333;
     letter-spacing: 1px;
+    text-align: center;
 }
 
 .box12{
@@ -571,6 +576,21 @@ ul,li{
     width: 18%;
 }
 
+.hcl{
+    position: absolute;
+    top: 26%;
+    left: 24%;
+}
+
+.hcltxt{
+    position: absolute;
+    top: 45%;
+    left: 15%;
+    color: #065196;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
 .box13{
     position: absolute;
     top: 51%;
@@ -578,7 +598,7 @@ ul,li{
     display: block;
     color: #000;
     position: relative;
-    background: #fff;
+    background-color: #022f5d;
     padding: 30px 10px;
     margin: 10px;
     overflow: hidden;
@@ -587,10 +607,25 @@ ul,li{
     width: 18%;
 }
 
+.strathallan{
+    position: absolute;
+    top: 26%;
+    left: 18%;
+}
+
+.strathallantxt{
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    color: white;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
 .box14{
     position: absolute;
-    top: 51%;
-    left: 60%;
+    top: 52.5%;
+    left: 51%;
     background-color: #698ee3;
     color: white;
     height: 30%;
@@ -598,3 +633,106 @@ ul,li{
     height: 45%;
     width: 35%;
 }  
+
+.more-stories{
+    position: absolute;
+    top: 395%;
+    border-top: 1px solid #aaa;
+    /* margin: 30px 0 0; */
+    text-align: center;
+    display: block;
+    unicode-bidi: isolate;
+    letter-spacing: 1px;
+    /* top: -18px; */
+    color: #138cd6;
+    margin: 0 6%;
+    float: right;
+    background: #f4f4f4;
+    padding: 5px;
+}
+
+.companies{
+    position: absolute;
+    top: 405%;
+    left: 25%;
+    font-size: 1.2em;
+    font-weight: 300;
+    text-align: center;
+    line-height: normal;
+    font-family: Zoho_Puvi_SemiBold;
+    letter-spacing: 1px;
+    color: #444;
+}
+
+.ft-container{
+    position: absolute;
+    top: 430%;
+    background: linear-gradient(to bottom, #293855 0, #0f111e 60%, #0c0b1b 100%);
+    color: #fff;
+    text-align: center;
+    height: 55%;
+    width: 100%;
+}
+
+.connect{
+    text-align: center;
+    font-size: 2.7em;
+    line-height: normal;
+    font-family: Zoho_Puvi_SemiBold;
+    color: #fff;
+    letter-spacing: .5px;
+}
+
+.message{
+    position: absolute;
+    top: 45%;
+    left: 15%;
+    height: 40%;
+}
+
+.blogs{
+    position: absolute;
+    top: 49%;
+    left: 35%;
+    height: 30%;
+}
+
+.marketplace{
+    position: absolute;
+    top: 49%;
+    left: 55%;
+    height: 30%;
+}
+
+.freetools{
+    position: absolute;
+    top: 49%;
+    left: 75%;
+    height: 30%;
+}
+
+.container2{
+    position: absolute;
+    top: 480%;
+    height: 70%;
+    width: 100%;
+    background-color: #f4f4f4;
+}
+
+.press{
+    position: absolute;
+    top: 13%;
+    left: 10%;
+    background-color: #fff;
+    height: 55%;
+    width: 38%;
+}
+
+.news{
+    position: absolute;
+    top: 13%;
+    left: 48.5%;
+    background-color: #fff;
+    height: 55%;
+    width: 38%;
+}
